@@ -9,6 +9,6 @@ public class SquareCalculatorDemo {
 
         SquareCalculator sqcalc = new SquareCalculator();
         long squaredNumber = sqcalc.calculateSquare(userNumber);
-        System.out.println(squaredNumber);
+        System.out.println(userNumber+" * "+ userNumber+" = " +squaredNumber);
     }
 }
